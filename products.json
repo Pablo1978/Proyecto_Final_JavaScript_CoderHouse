@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "nombre": "Aireador de dos bocas",
+      "precio": 3500,
+      "img": "./images/Aireador.webp",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Pecera de 200 Litros",
+      "precio": 9000,
+      "img":"./images/Pecera.webp",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Piedras Fusoras",
+      "precio": 250,
+      "img":"./images/Piedras fusoras.webp",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Filtro Cascada",
+      "precio": 6500,
+      "img":"./images/Filtro.webp",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Tratamiento Para Peces",
+      "precio": 850,
+      "img":"./images/Tratamiento para Peces.webp",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Calentador 60 w",
+      "precio": 4500,
+      "img":"./images/Calentador.webp",
+      "cantidad": 1
+    }
+  ]
+  
