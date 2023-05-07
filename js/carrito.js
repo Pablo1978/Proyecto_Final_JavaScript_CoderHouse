@@ -64,10 +64,20 @@ const pintarCarrito = () => {
 
   const totalBuying = document.createElement("div");
   totalBuying.className = "total-content";
-  totalBuying.innerHTML = `El total de tu compra es: $ ${total} 
-  <button class="btnfinalizar">Finalizar Compra</button>`;
+  totalBuying.innerHTML = `El total de tu compra es: $ ${total}`;
+
   modalContainer.append(totalBuying);
+
+  const finalizar = document.createElement("button");
+  finalizar.innerText = "Finalizar Compra";
+  finalizar.className = "btnfinalizar";
+
+  modalContainer.append(finalizar)
+
+  finalizar.addEventListener("click", (finalizarcompra));
+
 };
+
 
 verCarrito.addEventListener("click", pintarCarrito);
 
@@ -94,5 +104,15 @@ const carritoCounter = () => {
 
   cantidadCarrito.innerText = JSON.parse(localStorage.getItem("carritoLength"));
 };
+
+const finalizarcompra = () => {
+  Swal.fire({
+    position: 'center',
+    icon: 'success',
+    title: 'Gracias por su Compra, la misma se realizó con éxito',
+    showConfirmButton: true,
+    timer: 3000,
+  })
+}
 
 carritoCounter();
